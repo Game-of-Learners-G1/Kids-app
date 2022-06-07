@@ -5,7 +5,7 @@ const Home = () => {
         
         <div>
         
-            <h1>Hello world!</h1>
+            <h1>This is Home page</h1>
         </div>
     )
 }
