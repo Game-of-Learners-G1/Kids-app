@@ -1,0 +1,39 @@
+.contact-background{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px 20px rgb(221, 214, 214) inset;
+    }
+    .contact-background h1{
+        padding-top: 280px;
+        float: right;
+        font-size:50px;
+        padding-right: 100px;
+    }
+    .intouch{
+        background-color: rgb(221, 214, 214);
+        padding-top: 50px;
+        margin-top: 10px;
+        box-shadow:0px 0px 20px 0px #888888;
+        padding-bottom: 70px;
+    }
+    .intouch h1{
+        font-size:60px;
+    }
+.contact-details img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+.contact-details{
+    display:flex;
+    background-color: rgb(221, 214, 214);
+    justify-content: space-between;
+}
+
+.contact-details h1{
+    padding-right: 50px;
+    padding-left: 50px;
+}
