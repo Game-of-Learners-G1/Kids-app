@@ -27,6 +27,7 @@ code {
 }
 .navbar h1{
   color: #f1356d;
+  font-size:60px;
 }
 .navbar .links{
   margin-left: auto;
@@ -42,6 +43,23 @@ code {
 }
 .content{
   max-width: 100%;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 0px auto;
+  padding: 0px;
+}
+.svg-details{
+  bottom: 0px;
+  box-shadow:0px 0px 20px 0px #888888;
+  background-color:#466479;
+}
+.footer-details{
+  position: relative;
+  background-color:#273036;
+  height: 100px;
+  top: 0px;
+  bottom: 0;
+  box-shadow:0px 0px 20px 0px #273036;
+  
+}
+.footer-details h1{
+  color: white;
 }

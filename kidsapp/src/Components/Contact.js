@@ -40,7 +40,36 @@ const Contact = () => {
                     </h1> 
                 </div>
             
-        </div>
+            </div>
+            
+            <div className="contact-message">
+                <h1>Contact us</h1>
+            </div>
+            <div className="contact-form">
+
+                <label htmlFor="name">Name</label> <br></br>
+                <input type="text" className="form-control" /><br></br><br></br>
+                <label htmlFor="email">Email</label><br></br>
+                <input type="text" className="form-control" /><br></br><br></br>
+                <label htmlFor="subject">Subject</label><br></br>
+                <input type="text" className="form-control" /><br></br>
+                <label htmlFor="message">Message</label><br></br>
+                
+                <textarea></textarea>
+            </div>
+
+            {/* footer */}
+            <div className="svg-details">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230"><path fill="#273036" fill-opacity="1" d="M0,128L60,138.7C120,149,240,171,360,192C480,213,600,235,720,208C840,181,960,107,1080,96C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+
+                </path>
+                
+            
+                </svg>
+            </div>
+            <div className="footer-details">
+        <h1>Our text here </h1>
+            </div>
         </>
     )
 }

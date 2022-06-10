@@ -6,7 +6,7 @@ import React from 'react';
 const Nav = () => {
     return (
         <div className="navbar">
-            <h1>Kids Learning Application</h1>
+            <h1>Course Correct</h1>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

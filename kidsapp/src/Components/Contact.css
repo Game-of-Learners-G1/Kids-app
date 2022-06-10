@@ -31,9 +31,54 @@
     display:flex;
     background-color: rgb(221, 214, 214);
     justify-content: space-between;
+    box-shadow: 0 0 10px 20px rgb(221, 214, 214) inset;
 }
 
 .contact-details h1{
     padding-right: 50px;
     padding-left: 50px;
+    
+    
+}
+
+.contact-message{
+    background-color: rgb(221, 214, 214);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.contact-message h1{
+    font-size: 60px;
+}
+.contact-form{
+    background-color: rgb(221, 214, 214);
+    padding-bottom: 150px;
+}
+.contact-form input{
+    width: 85vh;
+    height:6vh;
+    font-size:30px;
+    outline: none;
+}
+.contact-form input:focus{
+    border: 2px solid green;
+}
+.contact-form label{
+    font-size:30px;
+    
+}
+.contact-form textarea{
+    width: 85vh;
+    height: 20vh;
+    outline: none;
+}
+.contact-form textarea:focus{
+    border: 2px solid green;
+}
+.footer-details{
+    margin-top: 0;
+}
+svg {
+    padding: 0;
+    margin-bottom: 0;
+    border: 0;
 }
