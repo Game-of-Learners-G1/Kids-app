@@ -1,10 +1,11 @@
 import React from 'react';
-import './Contact.css';
+import '../styles/Contact.css';
 
-const backgroundPic = new URL("../Images/cute.jpg", import.meta.url);
-const location = new URL("../Images/location.png", import.meta.url);
-const phone = new URL("../Images/phone.jpg", import.meta.url);
-const email = new URL("../Images/email.jpg", import.meta.url);
+import backgroundPic from "../Images/cute.jpg";
+import location from "../Images/location.png";
+import phone from "../Images/phone.jpg";
+import email from "../Images/email.jpg";
+
 const Contact = () => {
     return (
         <>
