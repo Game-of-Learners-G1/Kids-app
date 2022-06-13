@@ -34,7 +34,7 @@ const MidHome = () => {
       id: 3,
     },
     {
-      name: "Days",
+      name: "Days of the week",
       color: "white",
       id: 10,
     },
