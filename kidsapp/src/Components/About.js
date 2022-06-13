@@ -55,7 +55,7 @@ const About = () => {
       </div> 
       <div>
         <h3 className='line-one'>Aljabana Elizabeth</h3>
-      <h3>Abri Yusif</h3>
+      <h3>Abri Yusif Samana</h3>
       <h3>Chuol Tayar</h3>
       <h3>Peter Chan</h3>
       </div>
