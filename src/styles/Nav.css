@@ -1,0 +1,11 @@
+.navbar{
+    background-color: gray;
+    
+}
+.navbar h2{
+    color: black;
+}
+.links{
+    display: flex;
+    align-items: center;
+}

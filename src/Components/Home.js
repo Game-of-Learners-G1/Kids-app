@@ -4,10 +4,33 @@ import {Link} from 'react-router-dom';
 
 import "../styles/Home.css";
 
+import computer from "../Images/computer.png"
+
 const Home = () => {
   return (
     <div className="home">
-      <h1>This is Home page</h1>
+
+      {/* code from chuol */}
+
+      <div className="container">
+        <div className="contentComputer">
+
+        <div className="computer">
+        <img src={computer} alt=""/>
+          </div>
+          
+    <div id="content">
+        <h1>Learn with <br></br>Course Correct</h1>
+        <p>The best learning tool for your kids, let your kids learn, play and glow!</p>
+    </div>
+    
+          </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270"><path fill="gray" fill-opacity="1" d="M0,160L80,186.7C160,213,320,267,480,256C640,245,800,171,960,144C1120,117,1280,139,1360,149.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+</div>
+
+      {/* end of code from chuol */}
+
+      {/* <h1>This is Home page</h1> */}
       <MidHome />
       {/* Footer */}
       <Footer />
@@ -16,6 +39,13 @@ const Home = () => {
 };
 
 export default Home;
+
+const TopHome = () => { 
+  return(
+    <div className="top-home">
+      </div>
+  )
+ }
 
 const MidHome = () => {
   const buttonsArray = [
@@ -82,7 +112,7 @@ const MidHome = () => {
     {
       //not important here
       name: "Trees",
-      color: "dodgerblue",
+      color: "blue",
       id: 11,
       url:"/trees"
     },
@@ -98,9 +128,9 @@ const MidHome = () => {
     <div className="mid-home">
       <div className="buttons-container">
         {buttonsArray.map((object) => (
-          <Link to={object.url}>
+          <Link key={object.id} to={object.url}>
 
-            <Topic key={object.id} object={object} />
+            <Topic  object={object} />
           </Link>
         ))}
       </div>

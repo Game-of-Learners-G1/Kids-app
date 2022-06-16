@@ -25,15 +25,21 @@ const Left = () => {
   return (
     
     <div className="left">
-      <p>
+      <p style={{
+        color: "white",
+        textAlign: "center"
+      }}>
         Course correct exposes your kid to the best interactive learning and <br/>
-        also expose them to the lastest technologies.
+        also expose them to the latest technologies.
       </p>
       <br />
       <p>Take your kids from zero to hero!</p>
       <br />
       <br />
-      <h2>Copyright©{year}</h2>
+      <h2 style={{
+        color: "white",
+        textAlign: "center"
+      }} >Copyright©{year}</h2>
       </div>
       
   );
@@ -41,7 +47,9 @@ const Left = () => {
 const Right = ({icons}) => {
   return (
     <div className="right">
-        <h4>Contacts</h4>
+        <h4 style={{
+          color:"white"
+        }} >Contacts</h4>
       <div className="icons">
         {icons.map((icon, index) => {
           return (

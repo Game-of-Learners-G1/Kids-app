@@ -21,13 +21,16 @@ code {
   padding: 20px;
   display:flex;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #292626;
+  
+  
 }
 .navbar h1{
   color: #f1356d;
-  font-size:60px;
+  font-size:50px;
+  cursor: pointer;
 }
 .navbar .links{
   margin-left: auto;
@@ -62,4 +65,7 @@ code {
 }
 .footer-details h1{
   color: white;
+}
+.links a{
+  font-size:40px;
 }

@@ -1,0 +1,12 @@
+.alphbuttons button{
+    height:120px;
+    width:200px;
+    font-size: 80px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    }
+.alphbuttons{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+}
