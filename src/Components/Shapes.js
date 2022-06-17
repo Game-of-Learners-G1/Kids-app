@@ -9,7 +9,7 @@ const Shapes = () => {
       shapeDescription: 'circle is rounded figure'
     },
     {
-    id: 1,
+    id: 2,
     shapeName: 'Square',
     shapeImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/800px-Square_-_black_simple.svg.png',
       shapeDescription: 'All sides of a square are equal'
