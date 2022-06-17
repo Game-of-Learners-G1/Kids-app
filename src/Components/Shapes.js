@@ -90,7 +90,7 @@ const Shapes = () => {
                     {
                       id: 15,
                       shapeName: 'Octagon',
-                      shapeImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVddACeGCowHgWXwwyyrcKZScyim2NzWYexYxlvM4bCTA6352ycW13Ghe0d7cIi5mG2j0&usqp=CAU',
+                      shapeImage: 'https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/shape_octagon.png',
                         shapeDescription: ' an eight-sided polygon or 8-gon. '
                       },
                       {
@@ -146,7 +146,105 @@ const Shapes = () => {
                                         shapeImage: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/12_Sided_Polygon.jpg',
                                           shapeDescription: 'a dodecagon or 12-gon is any twelve-sided polygon.'
                                         },
-                                        
+                                        {
+                                          id: 25,
+                                          shapeName: 'Trapezium',
+                                          shapeImage: 'https://1.bp.blogspot.com/--rmycgzN5WE/XrJIfs9sK-I/AAAAAAAAFNk/5cgxVYdfwHwOhzrVTrB3MjPnjjNdn1SwQCLcBGAsYHQ/s1600/trapezoid.png',
+                                            shapeDescription: 'a quadrilateral with one pair of sides parallel.'
+                                          },
+                                          {
+                                            id: 26,
+                                            shapeName: 'Ellipse',
+                                            shapeImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-yS94TJz4EqDz0GFfFc7AyXjPcEBqX7QsM8zI75kEJNQAW-NBS4mXiUp5Or7tbPnjm0&usqp=CAU',
+                                              shapeDescription: ' a circle that has been stretched in one direction, to give it the shape of an oval.'
+                                            },
+                                            {
+                                              id: 27,
+                                              shapeName: 'QuatTrefoil',
+                                              shapeImage: 'https://thumbs.dreamstime.com/b/geometric-figures-quatrefoil-icon-elements-illustration-signs-symbols-can-be-used-web-logo-mobile-app-ui-ux-white-145501416.jpg',
+                                                shapeDescription: ' a symmetrical shape which forms the overall outline of four partially overlapping circles of the same diameter.'
+                                              },
+                                              {
+                                                id: 28,
+                                                shapeName: 'Trefoil',
+                                                shapeImage: 'https://thumbs.dreamstime.com/b/pink-trefoil-basic-simple-shapes-isolated-white-background-geometric-trefoil-icon-d-shape-symbol-trefoil-clip-art-geometric-144602469.jpg',
+                                                  shapeDescription: ' a graphic form composed of the outline of three overlapping rings'
+                                                },
+                                                {
+                                                  id: 29,
+                                                  shapeName: 'Polygon',
+                                                  shapeImage: 'https://media.geeksforgeeks.org/wp-content/uploads/20210204192812/c.JPG',
+                                                    shapeDescription: ' a plane figure enclosed by line segments called sides.'
+                                                  },
+                                                  {
+                                                    id: 30,
+                                                    shapeName: 'Ring',
+                                                    shapeImage: 'https://www.topweddingsites.com/wedding-blog/wp-content/uploads/2017/07/wedding-ring.jpg',
+                                                      shapeDescription: 'The round brilliant cut · '
+                                                    },
+                                                    {
+                                                      id: 31,
+                                                      shapeName: 'Scalene',
+                                                      shapeImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhoyVR8ZZSqRTe1jDHzmK1Fh5qXTX0qCTB-cFFk4N_elWSrFxJcDQ1CTNXfbD4zX1OjI&usqp=CAU',
+                                                        shapeDescription: ' a triangle having sides unequal in length. '
+                                                      },
+                                                      {
+                                                        id: 32,
+                                                        shapeName: 'Spiral',
+                                                        shapeImage: 'https://images.unsplash.com/photo-1530598343134-ee226a2e90e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpcmFsfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+                                                          shapeDescription: 'winding in a continuous and gradually widening (or tightening) curve, either round a central point on a flat plane or about an axis so as to form a cone. '
+                                                        },
+                                                        {
+                                                          id: 33,
+                                                          shapeName: 'Pyramid',
+                                                          shapeImage: 'https://www.clipartmax.com/png/middle/274-2743316_24-images-of-solid-pyramid-shape-template-cone-pyramid-3d-shapes.png',
+                                                            shapeDescription: ' a structure whose outer surfaces are triangular and converge to a single step at the top '
+                                                          },
+                                                          {
+                                                            id: 34,
+                                                            shapeName: 'Cone',
+                                                            shapeImage: 'https://images.saymedia-content.com/.image/t_share/MTczODkxNDY3MjY4NDAwOTkz/how-to-develop-a-cone.jpg',
+                                                              shapeDescription: 'a solid or hollow object which tapers from a circular or roughly circular base to a point.'
+                                                            },
+                                                            {
+                                                              id: 35,
+                                                              shapeName: 'Prism',
+                                                              shapeImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyxfI5Aw1cPsGefAIDLkoltTRBeaeIlNXU1yj5DiHTUgnsogDSkwk8Q-rx1-Oau-5LK8&usqp=CAU',
+                                                                shapeDescription: ' a polyhedron comprising an n-sided polygon base '
+                                                              },
+                                                              {
+                                                                id: 36,
+                                                                shapeName: 'Dedocahedron',
+                                                                shapeImage: 'https://www.researchgate.net/profile/Mehmet-Koca/publication/45924004/figure/fig8/AS:668668291719189@1536434352748/Dodecahedron-represented-by-the-vertices-of-31_Q320.jpg',
+                                                                  shapeDescription: 'any polyhedron with twelve flat faces'
+                                                                },
+                                                                {
+                                                                  id: 37,
+                                                                  shapeName: 'Icosahedron',
+                                                                  shapeImage: 'https://www.kidsmathgamesonline.com/images/pictures/shapes/icosahedron.jpg',
+                                                                    shapeDescription: 'a polyhedron with 20 faces. '
+                                                                  },
+                                                                  {
+                                                                    id: 38,
+                                                                    shapeName: 'Octahedron',
+                                                                    shapeImage: 'https://st.depositphotos.com/2036077/3893/i/600/depositphotos_38931407-stock-photo-3d-metal-octahedron.jpg',
+                                                                      shapeDescription: '  a polyhedron with eight faces. '
+                                                                    },
+                                                                    {
+                                                                      id: 39,
+                                                                      shapeName: 'sphere',
+                                                                      shapeImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTfYvHPtt5M_jCqxyaeeEDuaN2HugMbZUc3darEHc5LdI_S5tCAc6v0VAJ5ufzkADlRjc&usqp=CAU',
+                                                                        shapeDescription: 'object that is a three-dimensional analogue to a two-dimensional circle'
+                                                                      },
+                                                                      {
+                                                                        id: 40,
+                                                                        shapeName: 'Organic shape',
+                                                                        shapeImage: 'https://100-pics.net/images/answers/en/shapes/shapes_14642_525634.jpeg',
+                                                                          shapeDescription: 'Organic shapes are irregular and imperfect.'
+                                                                        },
+                                                                                                   
+                                                                                             
+                                                                                
     
 
   ]
