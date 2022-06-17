@@ -21,14 +21,12 @@ code {
   padding: 20px;
   display:flex;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   border-bottom: 1px solid #292626;
-  
-  
 }
-.navbar h1{
-  color: #f1356d;
+.navbar h2{
+  /* color: #f1356d; */
   font-size:50px;
   cursor: pointer;
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
 
 const Colors = () => {
   // Array of objects of 1000 random colors with readable names
@@ -141,6 +142,7 @@ const Colors = () => {
           <Color key={color.id} color={color} />
         ))}
       </div>
+      <Footer />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Days = () => {
   // Days of the week
@@ -13,7 +14,7 @@ const Days = () => {
   ];
   return (
     <div>
-      <h1>Days</h1>
+      <h1>Let's Learn Days of the Week</h1>
       {/* Mapping through the days array */}
       <div style={{
         // Displaying grid of 2 columns
@@ -27,6 +28,7 @@ const Days = () => {
           return <Day day={day} key={day.id} />;
         })}
       </div>
+      <Footer />
     </div>
   );
 };
