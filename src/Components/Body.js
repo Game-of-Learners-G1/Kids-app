@@ -16,13 +16,13 @@ const Body = () => {
     },
     {
       id: 3,
-      name: "Head",
-      image: "https://previews.123rf.com/images/vbaleha/vbaleha1308/vbaleha130800303/21706143-surprised-little-girl-kid-with-hands-on-her-head-isolated-on-white-background.jpg?fj=1"
+      name: "Leg",
+      image: "https://d1pra95f92lrn3.cloudfront.net/media/thumb/8542_fit512.jpg"
     },
     {
       id:4,
-      name:"Shoulder",
-      image:"https://image.shutterstock.com/image-photo/6-7-years-old-little-600w-399516334.jpg"
+      name:"Arm",
+      image:"https://dictionary.cambridge.org/images/thumb/arm_noun_002_01564.jpg"
     },
     {
       id: 5,
