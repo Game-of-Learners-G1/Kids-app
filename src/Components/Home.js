@@ -118,7 +118,7 @@ const MidHome = () => {
     },
     {
     //not important here
-      name: "Chairs",
+      name: "Countries and their capital cities",
       color: "dodgerblue",
       id: 12,
       url:"/chairs"
