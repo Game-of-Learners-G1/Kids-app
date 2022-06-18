@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
 
 const Shapes = () => {
   const allShapes = [
@@ -250,11 +251,19 @@ const Shapes = () => {
   ]
   return (
     <div>
-      <h1>Shapes</h1>
+      <h1>Let's Learn the Shapes</h1>
+      <div style = {{
+      // Displaying grid of 4 columns
+      display: "grid",
+      gridTemplateColumns: "repeat(4, 1fr)",
+      gap: "10px",
+    }}>
       {allShapes.map((shapes) => {
         return  < Shape key = {shapes.id} shapes = {shapes} />
         
       })}
+      </div>
+      <Footer />
     </div>
   
   )
