@@ -53,6 +53,7 @@ const Fruits = () => {
       fruitName: 'Apple',
       fruitImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRiXjrGJEHnS7THBFnoXvQt20J3oUI49WXw&usqp=CAU'
     }
+  
   ]
   return (
     <div>

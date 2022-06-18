@@ -5,8 +5,9 @@
     margin: 5px;
     cursor: pointer;
     border-radius: 7px;
+    background-color: yellow;
     }
 .alphbuttons{
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  repeat(5, 1fr);
 }

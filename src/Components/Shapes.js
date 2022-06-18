@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
+import { SayButton } from 'react-say-fork';
+
 
 const Shapes = () => {
   const allShapes = [
@@ -273,7 +275,9 @@ export default Shapes;
 
 const Shape = ({ shapes }) => {
   return (
-    <div>
+    <SayButton
+    speak ={shapes.shapeName}
+    >
       <h1>{shapes.shapeName}</h1>
       <img
         src={shapes.shapeImage}
@@ -284,6 +288,6 @@ const Shape = ({ shapes }) => {
         }}
       />
       <p>{shapes.shapeDescription}</p>
-    </div>
+    </SayButton>
   )
 }
