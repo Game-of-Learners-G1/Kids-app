@@ -2,7 +2,7 @@ import React from 'react'
 
 const Computer = () => {
   return (
-    <div>Computer</div>
+    <div>Computer parts</div>
   )
 }
 
