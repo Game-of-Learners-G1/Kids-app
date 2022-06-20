@@ -1,4 +1,5 @@
 import React from "react";
+import { SayButton } from "react-say-fork";
 import Footer from "./Footer";
 
 const Body = () => {
@@ -98,9 +99,15 @@ image:"https://image.shutterstock.com/image-photo/6-7-years-old-little-600w-3995
     }}
       >
 {
-  bodyParts.map(part => {
-    return <Part key={part.id} part={part} />
-  })
+          bodyParts.map(part => (
+            <SayButton
+              speak={part.name}
+              pitch={3.5}
+              rate ={0.4}
+            >
+    <Part key={part.id} part={part} />
+      </SayButton>
+          ))
 }
       </div >
       <Footer/>
@@ -121,7 +128,7 @@ const Part = ({ part }) => {
           width: "200px",
           cursor: "pointer",
         }}
-      />
+      alt=""/>
     </div>
   );
 };

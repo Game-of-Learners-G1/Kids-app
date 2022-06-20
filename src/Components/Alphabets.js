@@ -6,6 +6,7 @@ import { SayButton } from 'react-say-fork';
 const Alphabets = () => {
   return (
     <div>
+      
       <h1>Let's Learn Alphabets</h1>
       <AlphLetters />
       <Footer/>
@@ -19,7 +20,7 @@ export default Alphabets
 const AlphLetters = () => {
   const all_letters = [
     {
-      letter: "A ",
+      letter: "A. ",
       color: "red",
       text: ",  A, is, for, an, apple",
       id: 1
@@ -69,7 +70,7 @@ const AlphLetters = () => {
     {
       letter: "I ",
       color: "red",
-      text: ", H, is, for, an, Ink",
+      text: ", I, is, for, an, Ink",
       id: 9
     },
     {

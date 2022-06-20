@@ -117,9 +117,15 @@ const Animals = () => {
         gap: "10px",
       
       }}>
-      {allAnimals.map((animals) => {
-      return <Animal key = {animals.id} animals ={animals} />
-      })}
+        {allAnimals.map((animals) => (
+          <SayButton
+            speak={animals.animalName}
+            pitch={1.5}
+            rate ={0.2}
+          >
+      <Animal key = {animals.id} animals ={animals} />
+          </SayButton>
+      ))}
       </div>
       <Footer/>
     </div>
@@ -140,7 +146,7 @@ const Animal = ({ animals }) => {
           cursor: "pointer",
 
         }}
-      />
+      alt =""/>
     </div>
   );
 }

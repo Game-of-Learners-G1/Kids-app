@@ -1,4 +1,5 @@
 import React from 'react';
+import { SayButton } from 'react-say-fork';
 import Footer from './Footer';
 
 const Fruits = () => {
@@ -65,11 +66,16 @@ const Fruits = () => {
         gap: "10px"
         
       }}>
-        {allFruits.map((fruits) => {
-          return < Fruit key={fruits.id} fruits= {fruits}/>
+        {allFruits.map(fruits => (
+          <SayButton
+            speak={fruits.fruitName}
+            pitch={2.5}
+            rate = {0.6}
+          >
+          < Fruit key={fruits.id} fruits= {fruits}/>
+          </SayButton>
           
-          
-        })}
+        ))}
       </div>
       <Footer/>
     </div>
@@ -90,7 +96,7 @@ const Fruit = ({ fruits }) => {
           cursor: "pointer",
 
         }}
-      />
+     alt = "" />
     </div>
   );
 }

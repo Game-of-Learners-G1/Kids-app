@@ -5,8 +5,8 @@ import { SayButton } from "react-say-fork";
 const Days = () => {
   // Days of the week
   const days = [
-    { id: 1, name: "Sunday", description: "first day of the week" },
-    { id: 2, name: "Monday", description: "second day of the week" },
+    { id: 1, name: "Sunday.", description: "Sunday is the first day of the week" },
+    { id: 2, name: "Monday.", description: "Monday is the second day of the week" },
     { id: 3, name: "Tuesday", description: "third day of the week" },
     { id: 4, name: "Wednesday", description: "fourth day of the week" },
     { id: 5, name: "Thursday", description: "fifth day of the week" },
@@ -25,9 +25,13 @@ const Days = () => {
         
       }} >
         {" "}
-        {days.map((day) => {
-          return <Day day={day} key={day.id} />;
-        })}
+        {days.map(day => (
+          <SayButton
+            speak={`${day.name} ${day.description}`}
+          >
+          <Day day={day} key={day.id} />;
+            </SayButton>
+        ))}
       </div>
       <Footer />
     </div>
@@ -51,6 +55,7 @@ const Day = ({ day }) => {
       justifyContent: "center",
       alignItems: "center",
       paddingTop: "15%",
+      cursor:"pointer",
       
     }}>
       <h1>{day.name}</h1>

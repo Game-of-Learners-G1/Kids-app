@@ -140,7 +140,11 @@ const Colors = () => {
         cursor: "pointer"
       }} >
         {colors.map(color => (
+          <SayButton
+            speak={color.name}
+          >
           <Color key={color.id} color={color} />
+          </SayButton>
         ))}
       </div>
       <Footer />
@@ -164,6 +168,7 @@ const Color = ({ color }) => {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
+      cursor: "pointer",
 
     }}>
       <h2 style={{

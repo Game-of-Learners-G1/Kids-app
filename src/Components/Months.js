@@ -1,78 +1,79 @@
 import React from 'react';
-import Footer from './Footer'
+import Footer from './Footer';
+import { SayButton } from 'react-say-fork';
 
 const Months = () => {
   const months = [
     {
-      month: 'January',
-      descript: 'It is the first month of the year .',
+      month: 'January. ',
+      descript: ' It is the first month of the year .',
       days:'It has 31 days',
       id: 1
     },
     {
-      month: 'February.',
+      month: 'February. ',
       descript: 'It is the second month of the year.',
       days: 'It has 28 days and sometimes 29 days when it is a leap year.',
       id:2
     },
     {
-      month: 'March',
-      descript: 'It is the third month of the year',
-      days:'It has 31 days',
+      month: 'March.',
+      descript: 'It is the third month of the year.',
+      days:'It has 31 days.',
       id:3
     },
     {
-      month: 'April',
-      descript: 'It is the forth month of the year',
-      days:'It has 30 days',
+      month: 'April.',
+      descript: 'It is the forth month of the year.',
+      days:'It has 30 days.',
       id:4
     },
     {
-      month: 'May',
-      descript: 'It is the fifth month of the year',
-      days:'It has 31 days',
+      month: 'May.',
+      descript: 'It is the fifth month of the year.',
+      days:'It has 31 days.',
       id: 5
     },
     {
-      month: 'June',
-      descript: 'It is the sixth month of the year',
-      days:'It has 30 days',
+      month: 'June.',
+      descript: 'It is the sixth month of the year.',
+      days:'It has 30 days.',
       id: 6
     },
     {
-      month: 'July',
-      descript: 'It is the seventh month of the year',
-      days:'It has 31 days',
+      month: 'July.',
+      descript: 'It is the seventh month of the year.',
+      days:'It has 31 days.',
       id: 7
     },
     {
-      month: 'August',
-      descript: 'It is the eighth month of the year',
+      month: 'August.',
+      descript: 'It is the eighth month of the year.',
       days:'It has 31 days',
       id: 8
     },
     {
-      month: 'September',
-      descript: 'It is the ninth month of the year',
-      days:'It has 30 days',
+      month: 'September.',
+      descript: 'It is the ninth month of the year.',
+      days:'It has 30 days.',
       id: 9
     },
     {
-      month: 'October',
-      descript: 'It is the tenth month of the year',
-      days:'It has 31 days',
+      month: 'October.',
+      descript: 'It is the tenth month of the year.',
+      days:'It has 31 days.',
       id: 10
     },
     {
-      month: 'November',
-      descript: 'It is the eleventh month of the year',
-      days:'It has 30 days',
+      month: 'November.',
+      descript: 'It is the eleventh month of the year.',
+      days:'It has 30 days.',
       id: 11
     },
     {
-      month: 'December',
-      descript: 'It is the twelfth month of the year',
-      days:'It has 31 days',
+      month: 'December.',
+      descript: 'It is the twelfth month of the year.',
+      days:'It has 31 days.',
       id: 12
     },
   ]
@@ -87,12 +88,16 @@ const Months = () => {
         
       }}>
         {" "}
-      {months.map((month) => {
-        
-        return  < Month key={month.id} month={month}/>
+      {months.map((month) => (
+        <SayButton
+          speak={`${month.month} ${month.descript} ${month.days}`}
+          pitch={2.5}
+          rate={0.4}
+        >
+          < Month key={month.id} month={month}/>
+          </SayButton>
           
-          
-      })}
+      ))}
       </div>
       <Footer/>
       </div>
