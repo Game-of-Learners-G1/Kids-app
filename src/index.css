@@ -67,3 +67,30 @@ code {
 .links a{
   font-size:40px;
 }
+
+
+.typeMe{
+  font-size:30px;
+  color: #f1356d;
+  width: 600px;
+  height: 80px;
+  border: 1px solid #f1356d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Quicksand";
+}
+#btnRead{
+  background-color: #35f157;
+  color: white;
+  border: 1px solid #f1356d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Quicksand";
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 300px;
+}

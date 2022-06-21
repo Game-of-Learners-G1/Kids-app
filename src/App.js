@@ -16,6 +16,7 @@ import Fruits from './Components/Fruits';
 import Body from './Components/Body';
 import Arithmetic from './Components/Arithmetic';
 import Computer from './Components/Computer';
+import Readme from './Components/Readme';
 function App() {
   return (
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/body" element={<Body />} />
             <Route path="/arithmetic" element={<Arithmetic />} />
             <Route path="/computer" element={<Computer />} />
+            <Route path="/read" element={<Readme />} />
 
         </Routes>
           </div>

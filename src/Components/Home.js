@@ -111,10 +111,10 @@ const MidHome = () => {
     },
     {
       //not important here
-      name: "Trees",
+      name: "Let computer read",
       color: "blue",
       id: 11,
-      url:"/trees"
+      url:"/read"
     },
     {
     //not important here
