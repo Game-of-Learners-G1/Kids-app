@@ -89,7 +89,7 @@ image:"https://images-eu.ssl-images-amazon.com/images/I/910u7zY9IlL.png"
 
   return(
     <div>
-    <h1>Let'ss Learn Parts Of the Body</h1>
+    <h1>Let's Learn Parts Of the Body</h1>
       {/* Mapping through the bodyParts array */ }
     <div div style = {{
       // Displaying grid of 2 columns
