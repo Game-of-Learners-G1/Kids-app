@@ -80,11 +80,34 @@ id: 15,
 name: "Toes",
 image: "https://th.bing.com/th/id/R.30ed65936697288526cb32fb70e78dce?rik=44yRBr2H%2fgvrSw&riu=http%3a%2f%2fwww.abcteach.com%2ffree%2ft%2ftoesrgb.jpg&ehk=5a5GJdXOY3DygUEqT%2fd%2fjQPIeOVlPaALUX4xX%2byEY4E%3d&risl=&pid=ImgRaw&r=0"
 },
+
+
 {
-id:16,
-name:"Body parts",
-image:"https://images-eu.ssl-images-amazon.com/images/I/910u7zY9IlL.png"
-}
+  id: 16,
+  name: "neck",
+  image:"https://media.istockphoto.com/photos/beautiful-woman-cares-for-the-skin-neck-picture-id1192099018"
+},
+
+{
+  id: 17,
+  name:"Teeth",
+  image:"https://evansondds.com/wp-content/uploads/NaturalTeeth2.jpg"
+},
+{
+  id:18,
+  name:"Elbow",
+  image:"https://images.medicinenet.com/images/article/main_image/elbow-pain-1.jpg"
+},
+{
+  id:19,
+  name:"Chest",
+  image:"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2019%2F10%2Fcauses-of-chest-tightness.jpg&w=400&h=400&c=sc&poi=face&q=60"
+},
+{
+id:20,
+name:"Tongue",
+image:"https://www.rd.com/wp-content/uploads/2020/11/Tongue-Twisters_2-e1605119413458.gif?fit=700,797"
+},
       ]
 
   return(
