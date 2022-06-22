@@ -3,7 +3,6 @@ import './About.css';
 import Footer from './Footer';
 import onlineEducation from "../Images/online-education.jpg";
 import Students from "../Images/Students.png";
-import Person from "../Images/Person.png";
 import liz from"../Images/liz.png";
 import tayar from "../Images/tayar.jpg";
 import chan from "../Images/chan1.jpg";

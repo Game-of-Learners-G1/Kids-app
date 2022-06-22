@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {Container, Segment} from 'semantic-ui-react';
 import Footer from './Footer';
 import { useSpeechSynthesis } from 'react-speech-kit';
 

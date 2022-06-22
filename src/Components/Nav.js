@@ -11,9 +11,10 @@ const Nav = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact us</Link>
+        <Link to="/quiz">Quiz</Link>
         <div>
           <Link to="/contact">
-            Search{" "}
+            {/* Search{" "} */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

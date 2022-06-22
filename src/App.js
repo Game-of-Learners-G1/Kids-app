@@ -17,6 +17,18 @@ import Body from './Components/Body';
 import Arithmetic from './Components/Arithmetic';
 import Computer from './Components/Computer';
 import Readme from './Components/Readme';
+import Quiz from './Components/Quiz';
+import AlphaQuiz from './Quizzes/AlphaQuiz';
+import ShapeQuiz from './Quizzes/ShapeQuiz';
+import ColorQuiz from './Quizzes/ColorQuiz';
+import DaysQuiz from './Quizzes/DaysQuiz';
+import MonthsQuiz from './Quizzes/MonthsQuiz';
+import AnimalQuiz from './Quizzes/AnimalQuiz';
+import FruitsQuiz from './Quizzes/FruitsQuiz';
+import BodyQuiz from './Quizzes/BodyQuiz';
+import ArithmeticQuiz from './Quizzes/ArithmeticQuiz';
+import ComputerQuiz from './Quizzes/ComputerQuiz';
+import CountryQuiz from './Quizzes/CountryQuiz';
 function App() {
   return (
 
@@ -40,6 +52,18 @@ function App() {
             <Route path="/arithmetic" element={<Arithmetic />} />
             <Route path="/computer" element={<Computer />} />
             <Route path="/read" element={<Readme />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/alphaquiz" element={<AlphaQuiz />} />
+            <Route path="/shapequiz" element={<ShapeQuiz />} />
+            <Route path="/colorquiz" element={<ColorQuiz />} />
+            <Route path="/daysquiz" element={<DaysQuiz />} />
+            <Route path="/monthsquiz" element={<MonthsQuiz />} />
+            <Route path="/animalsquiz" element={<AnimalQuiz />} />
+            <Route path="/fruitsquiz" element={<FruitsQuiz />} />
+            <Route path="/bodysquiz" element={<BodyQuiz />} />
+            <Route path="/arithmeticquiz" element={<ArithmeticQuiz />} />
+            <Route path="/computerquiz" element={<ComputerQuiz />} />
+            <Route path="/countryquiz" element ={<CountryQuiz />} />
 
         </Routes>
           </div>

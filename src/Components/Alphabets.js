@@ -180,6 +180,7 @@ const AlphLetters = () => {
       color: "red",
       id: 27
     },
+    
   ];
 
   return (

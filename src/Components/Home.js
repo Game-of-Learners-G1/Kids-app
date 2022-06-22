@@ -40,12 +40,7 @@ const Home = () => {
 
 export default Home;
 
-const TopHome = () => { 
-  return(
-    <div className="top-home">
-      </div>
-  )
- }
+
 
 const MidHome = () => {
   const buttonsArray = [
@@ -123,6 +118,14 @@ const MidHome = () => {
       id: 12,
       url:"/chairs"
     },
+
+    {
+      //not important here
+        name: "Quizzes",
+        color: "blue",
+        id: 12,
+        url:"/quiz"
+      },
   ];
   return (
     <div className="mid-home">
