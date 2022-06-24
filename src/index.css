@@ -94,3 +94,8 @@ code {
   font-size: 25px;
   margin-bottom: 300px;
 }
+.btnDonate:hover{
+  background-color: green;
+  border: 2px solid white;
+  color: white;
+}

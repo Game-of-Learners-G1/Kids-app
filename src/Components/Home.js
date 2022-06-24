@@ -21,9 +21,22 @@ const Home = () => {
           
     <div id="content">
         <h1>Learn with <br></br>Course Correct</h1>
-        <p>The best learning tool for your kids, let your kids learn, play and glow!</p>
+            <p>The best learning tool for your kids, let your kids learn, play and glow!</p>
+            <div>
+              <p>Want to Help ? </p>
+              <button
+                
+            style={{
+                  width: "190px",
+                  height: "80px",
+                  cursor: "pointer",
+                  borderRadius: "10px",
+                  fontSize: "40px",
+            }} className="btnDonate"
+          >Donate</button>
+        </div>
     </div>
-    
+        
           </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270"><path fill="gray" fill-opacity="1" d="M0,160L80,186.7C160,213,320,267,480,256C640,245,800,171,960,144C1120,117,1280,139,1360,149.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 </div>
