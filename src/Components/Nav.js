@@ -36,12 +36,9 @@ const checkUser =  () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact us</Link>
-<<<<<<< Updated upstream
-=======
         <Link to="/quiz">Quiz</Link>
       
         <Link to="/Login">Login</Link>
->>>>>>> Stashed changes
         <div>
           <Link to="/contact">
             Search{" "}

@@ -16,8 +16,6 @@ import Fruits from './Components/Fruits';
 import Body from './Components/Body';
 import Arithmetic from './Components/Arithmetic';
 import Computer from './Components/Computer';
-<<<<<<< Updated upstream
-=======
 import Readme from './Components/Readme';
 import Quiz from './Components/Quiz';
 import AlphaQuiz from './Quizzes/AlphaQuiz';
@@ -38,7 +36,7 @@ import Protected from './Registration-Logging/Protected'
 import Account from './Registration-Logging/Account'
 
 import {AuthContextProvider} from './Registration-Logging/Context/AuthContext'
->>>>>>> Stashed changes
+
 function App() {
   return (
     <AuthContextProvider>
