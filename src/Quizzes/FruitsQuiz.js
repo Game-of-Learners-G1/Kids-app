@@ -4,7 +4,7 @@ import Footer from '../Components/Footer';
 const FruitsQuiz = () => {
   const questions = [
 		{
-      questionText: 'What is the name of this fruit',
+      questionText: 'What is the name of this fruit?',
       image: 'https://www.herbazest.com/imgs/3/f/2/9710/lemon.jpg',
 			answerOptions: [
 				{ answerText: 'Mango', isCorrect: false },
@@ -14,7 +14,7 @@ const FruitsQuiz = () => {
 			],
 		},
 		{
-      questionText: 'Name this fruit',
+      questionText: 'Name this fruit?',
       image: 'https://images.heb.com/is/image/HEBGrocery/000377497',
 			answerOptions: [
 				{ answerText: 'Watermelon', isCorrect: false },
@@ -45,7 +45,7 @@ const FruitsQuiz = () => {
     },
     
     {
-      questionText: 'Name the fruit below',
+      questionText: 'Name the fruit below?',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRiXjrGJEHnS7THBFnoXvQt20J3oUI49WXw&usqp=CAU',
 			answerOptions: [
 				{ answerText: 'Pawpaw', isCorrect: false },
@@ -56,7 +56,7 @@ const FruitsQuiz = () => {
     },
 
     {
-      questionText: 'This fruit is the sweetest, what is the name of the fruit ',
+      questionText: 'This fruit is the sweetest, what is the name of the fruit? ',
       image: 'https://thinkorg.ap-south-1.linodeobjects.com/uploads/products/meta/qXxX7CCRSUVZg5wLAVvSTPTOrFOoGLzvJHvwQu0V.jpeg',
 			answerOptions: [
 				{ answerText: 'Pineapple', isCorrect: true },
