@@ -1,9 +1,34 @@
 import { Link } from "react-router-dom";
-import React from "react";
+import React, {useEffect, useState} from "react";
+import { UserAuth } from '../Registration-Logging/Context/AuthContext';
 
 import "../styles/Nav.css";
 
 const Nav = () => {
+
+  // handle sign out and route back to home page 
+  const { user, logOut } = UserAuth();
+  const [isUserAvailable, setUserAvailable] = useState(false)
+
+  const handleSignOut = async () => {
+    try {
+      await logOut()
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+const checkUser =  () => {
+  useEffect(() => {
+    if(user !== null) {
+       return isUserAvailable = true
+    }
+  }, [user])
+  setUserAvailable(isUserAvailable)
+}  
+
+ 
+
   return (
     <div className="navbar">
       <h2>Course Correct</h2>
@@ -11,6 +36,12 @@ const Nav = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact us</Link>
+<<<<<<< Updated upstream
+=======
+        <Link to="/quiz">Quiz</Link>
+      
+        <Link to="/Login">Login</Link>
+>>>>>>> Stashed changes
         <div>
           <Link to="/contact">
             Search{" "}

@@ -16,10 +16,33 @@ import Fruits from './Components/Fruits';
 import Body from './Components/Body';
 import Arithmetic from './Components/Arithmetic';
 import Computer from './Components/Computer';
+<<<<<<< Updated upstream
+=======
+import Readme from './Components/Readme';
+import Quiz from './Components/Quiz';
+import AlphaQuiz from './Quizzes/AlphaQuiz';
+import ShapeQuiz from './Quizzes/ShapeQuiz';
+import ColorQuiz from './Quizzes/ColorQuiz';
+import DaysQuiz from './Quizzes/DaysQuiz';
+import MonthsQuiz from './Quizzes/MonthsQuiz';
+import AnimalQuiz from './Quizzes/AnimalQuiz';
+import FruitsQuiz from './Quizzes/FruitsQuiz';
+import BodyQuiz from './Quizzes/BodyQuiz';
+import ArithmeticQuiz from './Quizzes/ArithmeticQuiz';
+import ComputerQuiz from './Quizzes/ComputerQuiz';
+import CountryQuiz from './Quizzes/CountryQuiz';
+
+import Registration from './Registration-Logging/Registration.js'
+import Login from './Registration-Logging/Login.js'
+import Protected from './Registration-Logging/Protected'
+import Account from './Registration-Logging/Account'
+
+import {AuthContextProvider} from './Registration-Logging/Context/AuthContext'
+>>>>>>> Stashed changes
 function App() {
   return (
-
-    <Router>
+    <AuthContextProvider>
+      <Router>
       <div className="App">
       <Nav/>
           <div className="content">
@@ -39,10 +62,27 @@ function App() {
             <Route path="/arithmetic" element={<Arithmetic />} />
             <Route path="/computer" element={<Computer />} />
 
+            {/* register and sing in */}
+            <Route path="/register" element={<Registration />} />
+            <Route path="/login" element={<Login />} />
+
+            {/* only if a user is singed in will go to the account page/ add quiz page */}
+            <Route
+            path='/account'
+            element={
+              <Protected>
+                <Account />
+              </Protected>
+            }
+          />
+
         </Routes>
           </div>
       </div>
     </Router>
+    </AuthContextProvider>
+
+    
   );
 }
 
