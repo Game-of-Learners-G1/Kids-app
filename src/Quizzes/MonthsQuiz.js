@@ -4,49 +4,49 @@ import Footer from '../Components/Footer';
 const MonthsQuiz = () => {
   const questions = [
 		{
-			questionText: '________ is the first day of the week',
+			questionText: '________ is the second month of the year',
 			answerOptions: [
-				{ answerText: 'Saturday', isCorrect: false },
-				{ answerText: 'Sunday', isCorrect: true },
-				{ answerText: 'Monday', isCorrect: false },
-				{ answerText: 'Tuesday', isCorrect: false },
+				{ answerText: 'March', isCorrect: false },
+				{ answerText: 'February', isCorrect: true },
+				{ answerText: 'July', isCorrect: false },
+				{ answerText: 'May', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Name the forth day of the work',
+			questionText: 'When do christians celebrate christmas?',
 			answerOptions: [
-				{ answerText: 'Tuesday', isCorrect: false },
-				{ answerText: 'Monday', isCorrect: false },
-				{ answerText: 'Wednesday', isCorrect: true },
-				{ answerText: 'Thursday', isCorrect: false },
+				{ answerText: 'January', isCorrect: false },
+				{ answerText: 'September', isCorrect: false },
+				{ answerText: 'December', isCorrect: true },
+				{ answerText: 'June', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'When do Christians go to church',
+			questionText: 'November is the ------ month of the year?',
 			answerOptions: [
-				{ answerText: 'Sunday', isCorrect: true },
-				{ answerText: 'Saturday', isCorrect: false },
-				{ answerText: 'Monday', isCorrect: false },
-				{ answerText: 'Friday', isCorrect: false },
+				{ answerText: 'Eleventh', isCorrect: true },
+				{ answerText: 'Fifth', isCorrect: false },
+				{ answerText: 'Second', isCorrect: false },
+				{ answerText: 'Sixth', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Name the last day of the week',
+			questionText: '------ is the fifth month of the year?',
 			answerOptions: [
-				{ answerText: 'Friday', isCorrect: false },
-				{ answerText: 'Saturday', isCorrect: true },
-				{ answerText: 'Monday', isCorrect: false },
-				{ answerText: 'Tuesday', isCorrect: false },
+				{ answerText: 'January', isCorrect: false },
+				{ answerText: 'May', isCorrect: true },
+				{ answerText: 'October', isCorrect: false },
+				{ answerText: 'April', isCorrect: false },
 			],
     },
     
     {
-			questionText: 'When do muslims worship',
+			questionText: 'January is the ------ month of the year?',
 			answerOptions: [
-				{ answerText: 'Sunday', isCorrect: false },
-				{ answerText: 'Thursday', isCorrect: false },
-				{ answerText: 'Saturday', isCorrect: false },
-				{ answerText: 'Friday', isCorrect: true },
+				{ answerText: 'Tenth', isCorrect: false },
+				{ answerText: 'seventh', isCorrect: false },
+				{ answerText: 'Last', isCorrect: false },
+				{ answerText: 'First', isCorrect: true },
 			],
     },
     
