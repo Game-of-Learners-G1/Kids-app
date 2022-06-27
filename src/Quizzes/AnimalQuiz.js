@@ -5,7 +5,7 @@ const AnimalQuiz = () => {
   const questions = [
 		{
       questionText: 'What is the name of this animal',
-      image: 'https://a-z-animals.com/media/2021/12/Best-farm-animals-cow.jpg',
+      image: 'https://img.freepik.com/free-vector/cow-realistic-illustration_98292-1419.jpg?t=st=1656322553~exp=1656323153~hmac=cc0a574bab226fda40f1b344f7e3556eabdd086aa4667b757250c582f25931c3&w=740',
 			answerOptions: [
 				{ answerText: 'Cow', isCorrect: true },
 				{ answerText: 'Goat', isCorrect: false },
@@ -15,7 +15,7 @@ const AnimalQuiz = () => {
 		},
 		{
       questionText: 'What is the name of the following animal ?',
-      image: 'https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-786x500.jpg',
+      image: 'https://image.shutterstock.com/image-photo/lion-8-years-panthera-leo-600w-21701116.jpg',
 			answerOptions: [
 				{ answerText: 'Donkey', isCorrect: false },
 				{ answerText: 'Zebra', isCorrect: false },
@@ -25,7 +25,7 @@ const AnimalQuiz = () => {
 		},
 		{
       questionText: 'Name the animal seen the picture below',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOt83pD8XgO6MO6En0FQfY5uAS_B-KMQJizQ&usqp=CAU',
+      image: 'https://img.freepik.com/free-vector/cartoon-funny-hippo-isolated-white-background_29190-4164.jpg?w=996',
 			answerOptions: [
 				{ answerText: 'Hippopotamus', isCorrect: true },
 				{ answerText: 'Pig', isCorrect: false },
@@ -35,7 +35,7 @@ const AnimalQuiz = () => {
 		},
 		{
       questionText: 'How do you call the following animal ?',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfWUzyNSp9DEBzF443Wzmy_-WGzbWzwpH4A&usqp=CAU',
+      image: 'https://media.istockphoto.com/photos/the-australian-water-dragon-on-white-background-picture-id576740846?k=20&m=576740846&s=612x612&w=0&h=-PlOmgr1gPWoglANvl_OVJ2daLiK3e1x6br-5YY1Sl0=',
 			answerOptions: [
 				{ answerText: 'Cat', isCorrect: false },
 				{ answerText: 'Lizard', isCorrect: true },
@@ -43,10 +43,29 @@ const AnimalQuiz = () => {
 				{ answerText: 'Chameleon', isCorrect: false },
 			],
     },
-    
+	{
+    questionText: 'Name the animal below',
+      image: 'https://media.istockphoto.com/photos/front-view-of-british-shorthair-cat-7-months-old-sitting-picture-id104355461?k=20&m=104355461&s=612x612&w=0&h=9KPbuZ6tTUxqi-_WZT8zrjNrf1W8XBuXIw8ZIM_YQuI=',
+			answerOptions: [
+				{ answerText: 'Tiger', isCorrect: false },
+				{ answerText: 'Leopard', isCorrect: false },
+				{ answerText: 'Dog', isCorrect: false },
+				{ answerText: 'Cat', isCorrect: true },
+			],
+    },
+    {
+		questionText: 'Name the animal below',
+		  image: 'https://media.istockphoto.com/photos/australian-shepherd-sitting-against-white-background-picture-id1154953522?k=20&m=1154953522&s=612x612&w=0&h=YLYsSZkUCWvHZcZtVkSBbC8x3blUHwNVFEwtIpUEejM=',
+				answerOptions: [
+					{ answerText: 'Lion', isCorrect: false },
+					{ answerText: 'Wolf', isCorrect: false },
+					{ answerText: 'Dog', isCorrect: true },
+					{ answerText: 'Cat', isCorrect: false },
+				],
+		},
     {
       questionText: 'Name the animal below',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1LBOAqJBIE1mB6IX7cGkwZaH7H-ksUa5hIg&usqp=CAU',
+      image: 'https://media.istockphoto.com/photos/somali-giraffe-picture-id156539063?k=20&m=156539063&s=612x612&w=0&h=UEbhH1JkDJRb1bX3WIpQ4zw2NkxN__9n3pSTC1k6sgw=',
 			answerOptions: [
 				{ answerText: 'Zebra', isCorrect: false },
 				{ answerText: 'Leopard', isCorrect: false },
@@ -54,10 +73,31 @@ const AnimalQuiz = () => {
 				{ answerText: 'Giraffe', isCorrect: true },
 			],
     },
+    {
+		questionText: 'Name the animal below',
+		image: 'https://media.istockphoto.com/photos/zebra-isolated-on-white-background-picture-id501250398?k=20&m=501250398&s=612x612&w=0&h=-s0z9EsjTvszPt6NpDWqbulngza10JTkLaZweNeFZuo=',
+			  answerOptions: [
+				  { answerText: 'Zebra', isCorrect: true },
+				  { answerText: 'Gazell', isCorrect: false },
+				  { answerText: 'Donkey', isCorrect: false },
+				  { answerText: 'Giraffe', isCorrect: false },
+			  ],
+	  },	
+
+	  {
+		questionText: 'Name the animal below',
+		image: 'https://cdn.pixabay.com/photo/2020/10/28/17/03/fish-5694025__340.png',
+			  answerOptions: [
+				  { answerText: 'Snake', isCorrect: false },
+				  { answerText: 'Lizard', isCorrect: false },
+				  { answerText: 'Fish', isCorrect: true },
+				  { answerText: 'Crocodile', isCorrect: false },
+			  ],
+	  },	
 
     {
       questionText: 'Name the bird below ',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Laughing_dove_%28Spilopelia_senegalensis_cambayensis%29.jpg',
+      image: 'https://media.istockphoto.com/photos/white-pigeon-picture-id171347056?k=20&m=171347056&s=612x612&w=0&h=Jx2e3-wZKvEpd6o77O5d5r1niewuLkCmGq3zHvdNv0E=',
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: false },
 				{ answerText: 'Pigeon', isCorrect: false },
