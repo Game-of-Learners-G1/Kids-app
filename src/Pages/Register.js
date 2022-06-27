@@ -7,7 +7,8 @@ import Footer from '../Components/Footer';
 function SignIn() {
     const auth = getAuth(app);
     const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+    const [password, setPassword] = useState("");
+    const [confirmPassword, setConfirmPassword] = useState("");
   const [name, setName] = useState("");
 
     const signUp = (e) => {
@@ -43,8 +44,12 @@ return (
       <div>
       <input type={"email"} placeholder="Enter email address" onChange={(event) => setEmail(event.target.value)} />
         </div>
-        <div>
+    <div>
     <input type={"password"} placeholder="Enter password" onChange={(event) => setPassword(event.target.value)} />
+                </div>
+                
+    <div>
+    <input type={"password"} placeholder="confirm password" onChange={(event) => setPassword(event.target.value)} />
     </div>
     <div>
             <button type='submit' className="btnCreate">Create Account</button>
