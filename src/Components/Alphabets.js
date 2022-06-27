@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/alphabet.css';
 import Footer from './Footer';
 import { SayButton } from 'react-say-fork';
-import Nav from './Nav';
+
 
 const Alphabets = () => {
   return (
@@ -59,133 +59,150 @@ const AlphLetters = () => {
       letter: "F.",
       color: "red",
       text: "F is for a Fish",
-      id: 6
+      id: 6,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWlg7nQqmntaFwtTsrf7CYYhKBAmFrVptpaQ&usqp=CAU"
     },
     {
       letter: "G.",
       color: "red",
-      text: "G is for a Giraffe",
-      id: 7
+      text: ", G is for a Giraffe",
+      id: 7,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxWObQCvUm4XUvbZtbJsllVBLlDMlgnocXrA&usqp=CAU"
     },
     {
-      letter: "H.",
+      letter: "H. ",
       color: "red",
-      text: "H is for a Horse",
-      id: 8
+      text: ", H is for a Horse",
+      id: 8,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQKXhp-TM0Nn5oW8MW25NzaoXdq-yqXb7_8Q&usqp=CAU"
     },
     {
-      letter: "I.",
+      letter: "I. ",
       color: "red",
-      text: "I is for an Ink",
-      id: 9
+      text: ", I is for an Ink",
+      id: 9,
+      fruitURL: "https://www.kokuyocamlin.com/uploads/product_img/104_Fountain%20Pen%20Ink.jpg"
     },
     {
-      letter: "J.",
+      letter: "J. ",
       color: "red",
       text: "J is for a Jug",
-      id: 10
+      id: 10,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9HbZx2FxKfUfTVT3N76374gy9CarPquRzCw&usqp=CAU"
     },
     {
-      letter: "K.",
+      letter: "K. ",
       color: "red",
-      text: "K is for a Kitten",
-      id: 11
+      text: ", K is for a Kitten",
+      id: 11,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3d7rIsFwDl6WhRWLib6hdX8gXgGDZuu1yj2Cu5Er1qiEv1WlpIww_hIamVXUDqXbJwLA&usqp=CAU"
     },
     {
-      letter: "L.",
+      letter: "L. ",
       color: "red",
-      text: "Lion is for a Lion",
-      id: 12
+      text: ", Lion is for a Lion",
+      id: 12,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQavChZxUod9yRPQaAU4y56UPrZa_3YdonPsQ&usqp=CAU"
     },
     {
-      letter: "M.",
+      letter: "M. ",
       color: "red",
-      text: "M is for a mango",
-      id: 13
+      text: ", M is for a mango",
+      id: 13,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjhDe9NRpR78nqTuL8FPj4MnnCZc9kpwHngQ&usqp=CAU"
     },
     {
-      letter: "N.",
+      letter: "N. ",
       color: "red",
-      text: ", N, is, for, a, Nest",
-      id: 14
+      text: ", N is for a Nest",
+      id: 14,
+      fruitURL: "https://m.media-amazon.com/images/I/81nR0tBfd+L._SL1500_.jpg"
     },
     {
-      letter: "O",
+      letter: "O. ",
       color: "red",
-      text: ", O, is, for, an, Onion",
-      id: 15
+      text: ", O is for an Onion",
+      id: 15,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBG9pf29RfV4oLgaCf7iXl3r_fcJTxUniJvg&usqp=CAU"
     },
     {
-      letter: "P.",
+      letter: "P. ",
       color: "red",
-      text: "P is for a pen",
-      id: 16
+      text: ", P is for a pen",
+      id: 16,
+      fruitURL: "https://media.istockphoto.com/photos/red-and-blue-ballpoint-pens-on-white-background-picture-id1040237248?s=170667a"
     },
     {
-      letter: "Q.",
+      letter: "Q. ",
       color: "red",
-      text: "Q is for Queen",
-      id: 17
+      text: ", Q is for Queen",
+      id: 17,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQyRHNlS-j18k9nQhMz2-F6vGUSEJ3zh9PkA&usqp=CAU"
     },
     {
-      letter: "R.",
+      letter: "R. ",
       color: "red",
-      text: "R is for a Rate",
-      id: 18
+      text: ", R is for a Rat",
+      id: 18,
+      fruitURL: "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1440,f_auto/50491001_kupidw.png"
     },
     {
       letter: "S.",
       color: "red",
-      text: "S is for a Snake",
-      id: 19
+      text: ",S is for a Snake",
+      id: 19,
+      fruitURL: "https://ichef.bbci.co.uk/news/976/cpsprodpb/138D3/production/_122938008_gettyimages-574901555.jpg"
     },
     {
-      letter: "T.",
+      letter: "T. ",
       color: "red",
-      text: "T is for Tomato",
-      id: 20
+      text: ", T is for Tomato",
+      id: 20,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl1K2aj_djyBIHNX7HCnJYoXhugOYqqHsnjQ&usqp=CAU"
     },
     {
-      letter: "U.",
+      letter: "U. ",
       color: "red",
-      text: "U is for an Umbrella",
-      id: 21
+      text: ", U is for an Umbrella",
+      id: 21,
+      fruitURL: "https://5.imimg.com/data5/CS/LQ/MY-40335887/baby-printed-umbrella-250x250.jpg"
     },
     {
-      letter: "V.",
+      letter: "V. ",
       color: "red",
-      text: "V is for a Van",
-      id: 22
+      text: ", V is for a Van",
+      id: 22,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgRiZXdm3FPRZEdCd168bj8fu-dWd0fw03Sg&usqp=CAU"
     },
     {
-      letter: "W.",
+      letter: "W. ",
       color: "red",
-      text: "W is for a Whale",
-      id: 23
+      text: ", W is for a Whale",
+      id: 23,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3FjlWSCviW_66u6uvyQpGyVGRzH1vBbstQ&usqp=CAU"
     },
     {
-      letter: "X.",
+      letter: "X. ",
       color: "red",
-      text: "X is for X-mass",
-      id: 24
+      text: ", X is for X-mass",
+      id: 24,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwY4q4bAPLG_6vbK2EeQTGKFOcSqYGpqcTJIjhb4WO2vy5iuL0jTmoLJtlunH_kBX4KvY&usqp=CAU"
     },
     {
-      letter: "Y.",
+      letter: "Y. ",
       color: "red",
-      text: "Y is for Yam",
-      id: 25
+      text: ", Y is for Yam",
+      id: 25,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeqcQbPm-ah0PiD5n6qDXqezpqe79-lhVWPQ&usqp=CAU"
     },
     {
-      letter: "Z ",
+      letter: "Z. ",
       color: "red",
-      text: ", Z, is, for, a Zebra",
-      id: 26
+      text: ", Z is for a Zebra",
+      id: 26,
+      fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0kzdf4Cqmtbe6zUIo2dmCJXE6uEqI2-6EkDw8ZfdWVdXvtQ40w58B6hIUsa5ZS6_NksE&usqp=CAU"
     },
-    {
-      letter: "Quiz",
-      color: "red",
-      id: 27
-    },
+  
     
   ];
 
