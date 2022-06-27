@@ -4,7 +4,7 @@ import Footer from '../Components/Footer';
 const FruitsQuiz = () => {
   const questions = [
 		{
-      questionText: 'what is the name of this fruit',
+      questionText: 'What is the name of this fruit?',
       image: 'https://www.herbazest.com/imgs/3/f/2/9710/lemon.jpg',
 			answerOptions: [
 				{ answerText: 'Mango', isCorrect: false },
@@ -14,55 +14,55 @@ const FruitsQuiz = () => {
 			],
 		},
 		{
-      questionText: 'Name this fruit',
+      questionText: 'Name this fruit?',
       image: 'https://images.heb.com/is/image/HEBGrocery/000377497',
 			answerOptions: [
 				{ answerText: 'Watermelon', isCorrect: false },
 				{ answerText: 'Mango', isCorrect: false },
-				{ answerText: 'orange', isCorrect: false },
+				{ answerText: 'Orange', isCorrect: false },
 				{ answerText: 'Banana', isCorrect: true },
 			],
 		},
 		{
-      questionText: 'how do we call this fruit?',
+      questionText: 'How do we call this fruit?',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt17-7k8oV7lMYzIEofWm6-8SQEngcP14QNA&usqp=CAU',
 			answerOptions: [
-				{ answerText: 'pawpaw', isCorrect: true },
-				{ answerText: 'avocado', isCorrect: false },
-				{ answerText: 'mango', isCorrect: false },
-				{ answerText: 'pineapple', isCorrect: false },
+				{ answerText: 'Pawpaw', isCorrect: true },
+				{ answerText: 'Avocado', isCorrect: false },
+				{ answerText: 'Mango', isCorrect: false },
+				{ answerText: 'Pineapple', isCorrect: false },
 			],
 		},
 		{
       questionText: 'This fruit is called ?',
       image: 'https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/003/978/original/270435530_a82f19bb63_z.jpg',
 			answerOptions: [
-				{ answerText: 'watermelon', isCorrect: false },
+				{ answerText: 'Watermelon', isCorrect: false },
 				{ answerText: 'Guava', isCorrect: true },
-				{ answerText: 'lemon', isCorrect: false },
-				{ answerText: 'mango', isCorrect: false },
+				{ answerText: 'Lemon', isCorrect: false },
+				{ answerText: 'Mango', isCorrect: false },
 			],
     },
     
     {
-      questionText: 'Name the fruit below',
+      questionText: 'Name the fruit below?',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRiXjrGJEHnS7THBFnoXvQt20J3oUI49WXw&usqp=CAU',
 			answerOptions: [
-				{ answerText: 'pawpaw', isCorrect: false },
-				{ answerText: 'banana', isCorrect: false },
-				{ answerText: 'guava', isCorrect: false },
-				{ answerText: 'apple', isCorrect: true },
+				{ answerText: 'Pawpaw', isCorrect: false },
+				{ answerText: 'Banana', isCorrect: false },
+				{ answerText: 'Guava', isCorrect: false },
+				{ answerText: 'Apple', isCorrect: true },
 			],
     },
 
     {
-      questionText: 'This fruit is the sweetest, what is the name of the fruit ',
+      questionText: 'This fruit is the sweetest, what is the name of the fruit? ',
       image: 'https://thinkorg.ap-south-1.linodeobjects.com/uploads/products/meta/qXxX7CCRSUVZg5wLAVvSTPTOrFOoGLzvJHvwQu0V.jpeg',
 			answerOptions: [
-				{ answerText: 'pineapple', isCorrect: true },
-				{ answerText: 'watermelon', isCorrect: false },
-				{ answerText: 'orange', isCorrect: false },
-				{ answerText: 'apple', isCorrect: false },
+				{ answerText: 'Pineapple', isCorrect: true },
+				{ answerText: 'Watermelon', isCorrect: false },
+				{ answerText: 'Orange', isCorrect: false },
+				{ answerText: 'Apple', isCorrect: false },
 			],
 		},
     
