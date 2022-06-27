@@ -14,12 +14,48 @@ const AlphaQuiz = () => {
 			],
 		},
 		{
+			questionText: 'Fill in the blank space, _GG',
+			answerOptions: [
+				{ answerText: 'E', isCorrect: true },
+				{ answerText: 'L', isCorrect: false },
+				{ answerText: 'U', isCorrect: false },
+				{ answerText: 'A', isCorrect: false },
+			],
+        },
+		{
 			questionText: 'Z is for _____________',
 			answerOptions: [
 				{ answerText: 'X-mass', isCorrect: false },
 				{ answerText: 'Zebra', isCorrect: true },
 				{ answerText: 'Van', isCorrect: false },
 				{ answerText: 'Lemon', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'X is for _____________',
+			answerOptions: [
+				{ answerText: 'X-mass', isCorrect: true },
+				{ answerText: 'Zebra', isCorrect: false },
+				{ answerText: 'Yam', isCorrect: false },
+				{ answerText: 'Orange', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Fill in the blank space, AP_LE',
+			answerOptions: [
+				{ answerText: 'A', isCorrect: false },
+				{ answerText: 'Z', isCorrect: false },
+				{ answerText: 'P', isCorrect: true },
+				{ answerText: 'B', isCorrect: false },
+			],
+        },
+		{
+			questionText: 'Y is for _____________',
+			answerOptions: [
+				{ answerText: 'X-mass', isCorrect: false },
+				{ answerText: 'Zebra', isCorrect: false },
+				{ answerText: 'Yam', isCorrect: true },
+				{ answerText: 'Orange', isCorrect: false },
 			],
 		},
 		{
@@ -62,6 +98,7 @@ const AlphaQuiz = () => {
 		},
     
 	];
+	
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
