@@ -36,7 +36,7 @@ const BodyQuiz = () => {
 		},
 		{
       questionText: 'We smell with our? ?',
-      image: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/321810_2200-800x1200.jpg',
+      image: 'https://media.istockphoto.com/photos/nose-isolated-on-white-picture-id641615928?k=20&m=641615928&s=612x612&w=0&h=hc_e2js6P8I2J_RCnRqfy2J6_ICYI53nLTGnKYz2O2c=',
 			answerOptions: [
 				{ answerText: 'Chest', isCorrect: false },
 				{ answerText: 'Elbow', isCorrect: false },
