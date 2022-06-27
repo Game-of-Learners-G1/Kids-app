@@ -35,6 +35,7 @@ import BodyQuiz from './Quizzes/BodyQuiz';
 import ArithmeticQuiz from './Quizzes/ArithmeticQuiz';
 import ComputerQuiz from './Quizzes/ComputerQuiz';
 import CountryQuiz from './Quizzes/CountryQuiz';
+import Country from "./Components/Country";
 
 function App() {
 
@@ -63,7 +64,8 @@ function App() {
             <Route path="/arithmetic" element={<Arithmetic />} />
             <Route path="/computer" element={<Computer />} />
             <Route path="/read" element={<Readme />} />
-            <Route path="/quiz" element={<Quiz />} />
+              <Route path="/quiz" element={<Quiz />} />
+              <Route path="/countries" element={<Country />} />
             <Route path="/alphaquiz" element={<AlphaQuiz />} />
             <Route path="/shapequiz" element={<ShapeQuiz />} />
             <Route path="/colorquiz" element={<ColorQuiz />} />

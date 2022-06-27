@@ -31,7 +31,7 @@ const Home = () => {
                   width: "190px",
                   height: "80px",
                   cursor: "pointer",
-                  borderRadius: "10px",
+                  borderRadius: "30px",
                   fontSize: "40px",
             }} className="btnDonate"
           >Donate</button>
@@ -130,7 +130,7 @@ const MidHome = () => {
       name: "Countries and their capital cities",
       color: "dodgerblue",
       id: 12,
-      url:"/chairs"
+      url:"/countries"
     },
 
     {

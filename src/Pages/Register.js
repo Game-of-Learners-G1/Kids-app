@@ -9,25 +9,25 @@ function SignIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
-  const [name, setName] = useState("");
+    const [name, setName] = useState("");
 
     const signUp = (e) => {
         e.preventDefault()
         createUserWithEmailAndPassword(auth, email, password, name)
-          .then((userCredential) => {
+        .then((userCredential) => {
             // Signed in 
-              const user = userCredential.user;
-              console.log(user.email);
+            const user = userCredential.user;
+            console.log(user.email);
             window.localStorage.setItem("logedInUser", JSON.stringify(user.email))
             window.location.replace("/");
 
-          })
-          .catch((error) => {
+        })
+    .catch((error) => {
             const errorCode = error.code;
            // const errorMessage = error.message;
-              alert(errorCode);
+            alert(errorCode);
             // ..
-          });
+        });
         
 }
 
@@ -36,13 +36,13 @@ return (
     <div>
 
     <div className="main">
-      <form className="loginForm" onSubmit={(e)=>{signUp(e)}}>
-      <div>
-      
+    <form className="loginForm" onSubmit={(e)=>{signUp(e)}}>
+    <div>
+
         <input type={"text"} placeholder="Enter your name" onChange={(event) => setName(event.target.value)} />
-      </div>
-      <div>
-      <input type={"email"} placeholder="Enter email address" onChange={(event) => setEmail(event.target.value)} />
+    </div>
+    <div>
+    <input type={"email"} placeholder="Enter email address" onChange={(event) => setEmail(event.target.value)} />
         </div>
     <div>
     <input type={"password"} placeholder="Enter password" onChange={(event) => setPassword(event.target.value)} />
@@ -56,14 +56,14 @@ return (
         </div>
         <div>
             <p className="pCreate">Have account already?</p>
-          </div>
+        </div>
         <div>
-          <Link to="/login"> <button className="btnLogin">Login</button> </Link>
+        <Link to="/login"> <button className="btnLogin">Login</button> </Link>
     
         </div>
         </form>
         </div>
-      <Footer/>
+    <Footer/>
     </div>
 
 )

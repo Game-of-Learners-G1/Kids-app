@@ -39,7 +39,7 @@ const Left = () => {
       <h2 style={{
         color: "white",
         textAlign: "center"
-      }} >Copyright©{year}</h2>
+      }} >Copyright &copy; {year} Course Correct</h2>
       </div>
       
   );
