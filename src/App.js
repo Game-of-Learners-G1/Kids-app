@@ -1,6 +1,12 @@
-import Home from './Components/Home';
+
+
+import AdminTeacher from "./AdminTeacher";
+import { useState } from "react";
+import StudentData from "./StudentData";
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
 import './App.css';
 import './index.css';
 import * as React from "react";
@@ -29,16 +35,21 @@ import BodyQuiz from './Quizzes/BodyQuiz';
 import ArithmeticQuiz from './Quizzes/ArithmeticQuiz';
 import ComputerQuiz from './Quizzes/ComputerQuiz';
 import CountryQuiz from './Quizzes/CountryQuiz';
-function App() {
-  return (
 
-    <Router>
+function App() {
+
+  const [login, setLogin] = useState(false);
+  const [signup, setSignup] = useState(false);
+
+  //generate login function
+    return (
+      <Router>
       <div className="App">
       <Nav/>
           <div className="content">
           
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<StudentData />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/alphabets" element={<Alphabets />} />
@@ -63,7 +74,11 @@ function App() {
             <Route path="/bodysquiz" element={<BodyQuiz />} />
             <Route path="/arithmeticquiz" element={<ArithmeticQuiz />} />
             <Route path="/computerquiz" element={<ComputerQuiz />} />
-            <Route path="/countryquiz" element ={<CountryQuiz />} />
+            <Route path="/countryquiz" element={<CountryQuiz />} />
+            <Route path="/adminteacher" element={<AdminTeacher />} />
+
+            <Route exact path="signup" element={<Register />} />
+            <Route exact path="login" element={<Login />} />
 
         </Routes>
           </div>

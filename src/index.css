@@ -103,3 +103,85 @@ code {
   height: 250px;
   width: 300px;
 }
+
+.btnLogin{
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+  width: 40vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #73de87;
+  cursor: pointer;
+}
+.btnCreate{
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+  width: 40vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #73de87;
+  cursor: pointer;
+
+}
+.pCreate{
+  color: #273036;
+}
+
+.btnBarLogin{
+  width: 12vh;
+  height: 40px;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  border: transparent;
+}
+.btnBarLogin:hover{
+  background-color: #35f157;
+  color: white;
+}
+
+
+.btnBarSignup{
+  width: 12vh;
+  height: 40px;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  border: transparent;
+}
+.btnBarSignup:hover{
+  background-color: #35f157;
+  color: white;
+}
+
+
+
+
+
+.main{
+
+  margin-bottom: 100px;
+}
+.loginForm{
+  align-items: center;
+  justify-content: center;
+
+}
+.loginForm input{
+  height: 50px;
+  width: 70vh;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #888888;
+}
+.loginForm input:focus{
+  
+  box-shadow:2px 0px 10px 0px greenyellow;
+  outline: none;
+}
