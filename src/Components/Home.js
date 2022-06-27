@@ -9,6 +9,7 @@ import computer from "../Images/computer.png"
 const Home = () => {
   return (
     <div className="home">
+      
 
       {/* code from chuol */}
 

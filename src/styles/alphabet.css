@@ -11,3 +11,13 @@
     display: grid;
     grid-template-columns:  repeat(5, 1fr);
 }
+
+.popup{
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    border-radius: 10px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+}

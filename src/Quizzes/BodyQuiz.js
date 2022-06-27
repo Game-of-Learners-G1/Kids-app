@@ -65,7 +65,9 @@ const BodyQuiz = () => {
 				{ answerText: 'Elbow', isCorrect: false },
 				{ answerText: 'Mouth', isCorrect: false },
 			],
-		},
+	  },
+	
+	
     
 	];
 

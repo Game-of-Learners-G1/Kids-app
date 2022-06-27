@@ -99,3 +99,7 @@ code {
   border: 2px solid white;
   color: white;
 }
+.fruitURL img{
+  height: 250px;
+  width: 300px;
+}
