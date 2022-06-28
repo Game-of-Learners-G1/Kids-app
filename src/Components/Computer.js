@@ -23,7 +23,7 @@ const Computer = () => {
     {
       id: 3,
       name: "Keyboard",
-      description: "is an input device used to enter characters and functions into the computer system by pressing buttons, or keys",
+      description: "is an input device used to enter characters and functions into the computer system by pressing buttons or keys",
       image: "https://www.ubuy.ke/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjE4TCtWLUkzb0wuX0FDX1NMMTUwMF8uanBn.jpg"
     },
 
