@@ -79,43 +79,43 @@ const MidHome = () => {
     {
     name: "Days of the week",
     color: "white",
-      id: 10,
+      id: 4,
     url: "/days"
 },
     {
       name: "Months",
       color: "blue",
-      id: 4,
+      id: 5,
       url:"/months"
     },
     {
       name: "Animals",
       color: "red",
-      id: 5,
+      id: 6,
       url:"/animals"
     },
     {
       name: "Fruits",
       color: "orange",
-      id: 6,
+      id: 7,
       url:"/fruits"
     },
     {
       name: "Parts of the body",
       color: "brown",
-      id: 7,
+      id: 8,
       url:"/body"
     },
     {
       name: "Arithmetic",
       color: "pink",
-      id: 8,
+      id: 9,
       url:"/arithmetic"
     },
     {
       name: "Parts of a Computer",
       color: "dodgerblue",
-      id: 9,
+      id: 10,
       url:"/computer"
     },
     {
@@ -137,7 +137,7 @@ const MidHome = () => {
       //not important here
         name: "Quizzes",
         color: "blue",
-        id: 12,
+        id: 13,
         url:"/quiz"
       },
   ];
