@@ -21,7 +21,7 @@ code {
   padding: 20px;
   display:flex;
   align-items: center;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   border-bottom: 1px solid #292626;
 }
