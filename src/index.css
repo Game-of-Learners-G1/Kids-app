@@ -21,7 +21,7 @@ code {
   padding: 20px;
   display:flex;
   align-items: center;
-  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid #292626;
 }
@@ -43,9 +43,9 @@ code {
   color: #f1356d;
 }
 .content{
-  max-width: 100%;
-  margin: 0px auto;
-  padding: 0px;
+  width: 100%;
+  /* margin: 0px auto; */
+  /* padding: 0px; */
 }
 .svg-details{
   bottom: 0px;
