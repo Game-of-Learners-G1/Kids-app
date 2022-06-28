@@ -1,6 +1,7 @@
 .navbar{
     background-color: gray;
     margin: auto;
+    display: flex;
  
     
 }
