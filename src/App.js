@@ -36,6 +36,7 @@ import ArithmeticQuiz from './Quizzes/ArithmeticQuiz';
 import ComputerQuiz from './Quizzes/ComputerQuiz';
 import CountryQuiz from './Quizzes/CountryQuiz';
 import Country from "./Components/Country";
+import Mpesa from "./Components/Mpesa";
 
 function App() {
 
@@ -78,7 +79,7 @@ function App() {
             <Route path="/computerquiz" element={<ComputerQuiz />} />
             <Route path="/countryquiz" element={<CountryQuiz />} />
             <Route path="/adminteacher" element={<AdminTeacher />} />
-
+            <Route path="/donate" element= {<Mpesa/>}/>
             <Route exact path="signup" element={<Register />} />
             <Route exact path="login" element={<Login />} />
 

@@ -29,7 +29,7 @@
   color: #f1356d;
 }
 .content{
-  width: auto;
+  width: 100%;
   /* margin: 0px auto; */
   /* padding: 0px; */
 }
@@ -83,6 +83,10 @@
 .btnDonate:hover{
   background-color: green;
   border: 2px solid white;
+  color: white;
+}
+.btnDonate a:hover{
+  background-color: green;
   color: white;
 }
 .fruitURL img{
@@ -170,3 +174,5 @@
 }
 
 
+
+/* trying to make it responsive */

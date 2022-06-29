@@ -17,14 +17,16 @@ const Nav = () => {
 
   return (
     <div className="navbar">
-      <h2>Course Correct</h2>
+    
+
+        <h2>Course Correct</h2>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact us</Link>
         <Link to="/quiz">Quiz</Link>
 
-       
+
         {logedinUser ? <button onClick={() => { signOutHandler() }}
           style = {{
             height: "40px",
@@ -45,6 +47,7 @@ const Nav = () => {
         </Link>
         </div> }
       </div>
+      
     </div>
   );
 };

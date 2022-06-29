@@ -100,7 +100,7 @@ const AlphLetters = () => {
     {
       letter: "L. ",
       color: "red",
-      text: ", L is for a Lion",
+      text: ", Lion is for a Lion",
       id: 12,
       fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQavChZxUod9yRPQaAU4y56UPrZa_3YdonPsQ&usqp=CAU"
     },

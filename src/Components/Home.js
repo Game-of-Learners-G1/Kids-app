@@ -34,7 +34,10 @@ const Home = () => {
                   borderRadius: "30px",
                   fontSize: "40px",
             }} className="btnDonate"
-          >Donate</button>
+              > <Link to="/donate" style={{
+                  textDecoration: "none",
+                
+          }}> Donate</Link></button>
         </div>
     </div>
         
@@ -45,7 +48,8 @@ const Home = () => {
       {/* end of code from chuol */}
 
       {/* <h1>This is Home page</h1> */}
-      <MidHome />
+      <div><MidHome /></div>
+      
       {/* Footer */}
       <Footer />
     </div>
