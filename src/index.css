@@ -29,7 +29,7 @@
   color: #f1356d;
 }
 .content{
-  width: 100%;
+  width: auto;
   /* margin: 0px auto; */
   /* padding: 0px; */
 }
@@ -170,5 +170,3 @@
 }
 
 
-
-/* trying to make it responsive */
