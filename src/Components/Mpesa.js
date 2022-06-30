@@ -8,7 +8,10 @@ import kcp from '../Images/kcp.jpg';
 const Mpesa = () => {
   return (
     <div>
-       <h1> Mpesa</h1>
+      <div className = 'paymentHeader'>
+        <h1>Choose your payment Method</h1>
+      </div>
+      
       <div className='payDetails'>
         
 

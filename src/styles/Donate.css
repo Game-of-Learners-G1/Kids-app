@@ -9,10 +9,15 @@
     cursor: pointer;
     margin: 20px;
     width: auto;
+    border-radius: 20px;
+    border: none;
     
 }
 .payDetails img{
     width: 350px;
     height: 350px;
     border-radius: 20px;
+}
+.paymentHeader{
+    margin: 50px;
 }
