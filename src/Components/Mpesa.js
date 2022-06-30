@@ -6,6 +6,10 @@ import equity from '../Images/equity.jpg';
 import kcp from '../Images/kcp.jpg';
 
 const Mpesa = () => {
+  const handlePaymentDetails = (even) => {
+    even.preventDefault()
+    alert("We thank you for your generosity. The system has technical problems. Try again in the next few days.")
+  }
   return (
     <div>
       <div className = 'paymentHeader'>
@@ -16,19 +20,19 @@ const Mpesa = () => {
         
 
       <div className='mpesaDetails'>
-        <button>
+        <button onClick={(even) =>handlePaymentDetails(even)}>
           <img src={mpesa} alt=''/>
         </button>
       </div>
 
       <div className='kcpDetails'>
-        <button>
+        <button onClick={(even) =>handlePaymentDetails(even)}>
           <img src={kcp} alt=''/>
         </button>
       </div>
 
       <div className='equityDetails'>
-        <button>
+        <button onClick={(even) =>handlePaymentDetails(even)}>
           <img src={equity} alt=''/>
         </button>
       </div>
