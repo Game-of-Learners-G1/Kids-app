@@ -1,0 +1,18 @@
+.payDetails{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.payDetails button{
+    cursor: pointer;
+    margin: 20px;
+    width: auto;
+    
+}
+.payDetails img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
