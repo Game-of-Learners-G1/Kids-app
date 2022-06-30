@@ -13,22 +13,31 @@ function SignIn() {
 
     const signUp = (e) => {
         e.preventDefault()
-        createUserWithEmailAndPassword(auth, email, password, name)
-        .then((userCredential) => {
-            // Signed in 
-            const user = userCredential.user;
-            console.log(user.email);
-            window.localStorage.setItem("logedInUser", JSON.stringify(user.email))
-            window.location.replace("/");
+        if (password!= confirmPassword) {
+            window.alert(`${confirmPassword} != to ${password}`)
+        } else if (password.length < 8) {
+            window.alert(`Password should be => 8`)
 
-        })
-    .catch((error) => {
-            const errorCode = error.code;
-           // const errorMessage = error.message;
-            alert(errorCode);
-            // ..
-        });
-        
+        }
+        else {
+            
+            createUserWithEmailAndPassword(auth, email, password, name)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                console.log(user.email);
+                window.localStorage.setItem("logedInUser", JSON.stringify(user.email))
+                window.location.replace("/");
+                
+            })
+        .catch((error) => {
+                const errorCode = error.code;
+               // const errorMessage = error.message;
+                alert(errorCode);
+                // ..
+            });
+            
+        }
 }
 
 
@@ -49,7 +58,7 @@ return (
                 </div>
                 
     <div>
-    <input type={"password"} placeholder="confirm password" onChange={(event) => setPassword(event.target.value)} />
+    <input type={"password"} placeholder="confirm password" onChange={(event) => setConfirmPassword(event.target.value)} />
     </div>
     <div>
             <button type='submit' className="btnCreate">Create Account</button>

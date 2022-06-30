@@ -67,10 +67,10 @@ const MidHome = () => {
         url:"/bodysquiz"
       },
       {
-        name: "Arithmetic",
+        name: "Numbers",
         color: "pink",
         id: 8,
-        url:"/arithmeticquiz"
+        url:"/numberquiz"
       },
       {
         name: "Parts of a Computer",

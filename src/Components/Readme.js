@@ -6,7 +6,8 @@ const Readme = () => {
     const [text, setText] = useState('');
     const {speak} = useSpeechSynthesis();
 
-    const handleOnClick = () => {
+    const handleOnClick = (even) => {
+        even.preventDefault()
         speak({text:text})
     }
     return (
@@ -17,7 +18,7 @@ const Readme = () => {
                 <form>
                     <textarea className="typeMe" onChange={(e)=>{setText(e.target.value)}}></textarea>
                     <br/>
-                    <button id="btnRead" onClick={()=>{handleOnClick()}}>Read</button>
+                    <button id="btnRead" onClick={(even)=>{handleOnClick(even)}}>Read</button>
                 </form>
 
             </div>

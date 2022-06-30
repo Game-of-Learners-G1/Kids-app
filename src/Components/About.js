@@ -1,12 +1,12 @@
 import React from 'react';
 import './About.css';
-import Footer from './Footer';
 import onlineEducation from "../Images/online-education.jpg";
 import Students from "../Images/Students.png";
 import liz from"../Images/liz.png";
 import tayar from "../Images/tayar.jpg";
 import chan from "../Images/chan1.jpg";
 import abri from "../Images/abri.jpg"
+import Footer from './Footer';
 
 
 // const onlineEducation = new URL("../Images/online-education.jpg", import.meta.url);

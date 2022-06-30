@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/alphabet.css';
 import Footer from './Footer';
-import { SayButton } from 'react-say-fork';
+import { useSpeechSynthesis } from 'react-speech-kit';
 
 
 const Alphabets = () => {
@@ -100,7 +100,7 @@ const AlphLetters = () => {
     {
       letter: "L. ",
       color: "red",
-      text: ", Lion is for a Lion",
+      text: ", L is for a Lion",
       id: 12,
       fruitURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQavChZxUod9yRPQaAU4y56UPrZa_3YdonPsQ&usqp=CAU"
     },
@@ -208,7 +208,10 @@ const AlphLetters = () => {
 
   const [showAlhabet, setShowAlhabet] = React.useState(false);
   const [alphForPopup, setAlphForPopup] = React.useState({})
+  const {speak} = useSpeechSynthesis();
 
+
+  
   const closePopup = () => {
     setAlphForPopup({})
     setShowAlhabet(false)
@@ -222,15 +225,13 @@ const AlphLetters = () => {
             setShowAlhabet(true)
             setAlphForPopup(leter)
           }}>
-            <SayButton
-            speak={`${leter.letter} ${leter.text}`}
-          
-              pitch={1.5}
-              rate={0.6}
+            <button
+              onClick={()=>{speak({ text: leter.text})}}
+            
             >
               {leter.letter}
               
-            </SayButton>
+            </button>
             
           </div>
         );
@@ -242,15 +243,10 @@ const AlphLetters = () => {
 
 const Popup = ({letter,closeHandler}) => {
   return (
+    <div className="mainPopup" onClick={()=>{closeHandler()}}>
+
     <div className="popup">
       <h4>{letter.letter}</h4>
-      <button onClick={() => { closeHandler() }}
-        style={{
-          fontSize: "10px",
-          height: "30px",
-          width: "45px",
-        }}
-      >Close</button>
       <h6 style={{
         fontSize: "20px",
         color: "white",
@@ -258,7 +254,15 @@ const Popup = ({letter,closeHandler}) => {
       <div className='fruitURL'>
         <img src={letter.fruitURL} alt=''/>
       </div>
+      <button onClick={() => { closeHandler() }}
+        style={{
+          fontSize: "10px",
+          height: "30px",
+          width: "45px",
+        }}
+      >Close</button>
         
+    </div>
     </div>
   )
 }

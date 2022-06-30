@@ -20,7 +20,6 @@ import Months from './Components/Months';
 import Animals from './Components/Animals';
 import Fruits from './Components/Fruits';
 import Body from './Components/Body';
-import Arithmetic from './Components/Arithmetic';
 import Computer from './Components/Computer';
 import Readme from './Components/Readme';
 import Quiz from './Components/Quiz';
@@ -37,11 +36,11 @@ import ComputerQuiz from './Quizzes/ComputerQuiz';
 import CountryQuiz from './Quizzes/CountryQuiz';
 import Country from "./Components/Country";
 import Mpesa from "./Components/Mpesa";
+import Numbers from "./Components/Numbers";
 
 function App() {
 
-  const [login, setLogin] = useState(false);
-  const [signup, setSignup] = useState(false);
+
 
   //generate login function
     return (
@@ -62,7 +61,7 @@ function App() {
             <Route path="/animals" element={<Animals />} />
             <Route path="/fruits" element={<Fruits />} />
             <Route path="/body" element={<Body />} />
-            <Route path="/arithmetic" element={<Arithmetic />} />
+            <Route path="/numbers" element={<Numbers />} />
             <Route path="/computer" element={<Computer />} />
             <Route path="/read" element={<Readme />} />
               <Route path="/quiz" element={<Quiz />} />
@@ -75,7 +74,7 @@ function App() {
             <Route path="/animalsquiz" element={<AnimalQuiz />} />
             <Route path="/fruitsquiz" element={<FruitsQuiz />} />
             <Route path="/bodysquiz" element={<BodyQuiz />} />
-            <Route path="/arithmeticquiz" element={<ArithmeticQuiz />} />
+            <Route path="/numberquiz" element={<ArithmeticQuiz />} />
             <Route path="/computerquiz" element={<ComputerQuiz />} />
             <Route path="/countryquiz" element={<CountryQuiz />} />
             <Route path="/adminteacher" element={<AdminTeacher />} />

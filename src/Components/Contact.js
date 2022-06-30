@@ -5,8 +5,12 @@ import backgroundPic from "../Images/cute.jpg";
 import location from "../Images/location.png";
 import phone from "../Images/phone.jpg";
 import email from "../Images/email.jpg";
+import Footer from './Footer';
 
 const Contact = () => {
+    const giveMessage = () => {
+        alert("There was a technical problem. You can use the number or the email on the screen to contact the office direct")
+    }
     return (
         <>
     <div className="contact-background" style={{backgroundImage: `url(${ backgroundPic})`}}>
@@ -47,7 +51,7 @@ const Contact = () => {
                 <h1>Contact us</h1>
             </div>
             <div className="contact-form">
-
+            <form mailto="abriyusif20@gmail.com">
                 <label htmlFor="name">Name</label> <br></br>
                 <input type="text" className="form-control" /><br></br><br></br>
                 <label htmlFor="email">Email</label><br></br>
@@ -57,20 +61,15 @@ const Contact = () => {
                 <label htmlFor="message">Message</label><br></br>
                 
                 <textarea></textarea>
+
+                <div className='btnSubmitContainer'>
+                    <button type='submit' className='btnSubmitForm' onClick={giveMessage}>Submit</button>
+                </div>
+            </form>
             </div>
 
-            {/* footer */}
-            <div className="svg-details">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230"><path fill="#273036" fill-opacity="1" d="M0,128L60,138.7C120,149,240,171,360,192C480,213,600,235,720,208C840,181,960,107,1080,96C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        <Footer/>
 
-</path>
-
-
-</svg>
-            </div>
-            <div className="footer-details">
-        <h1>Our text here </h1>
-            </div>
         </>
     )
 }

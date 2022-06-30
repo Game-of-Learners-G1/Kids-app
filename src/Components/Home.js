@@ -111,10 +111,10 @@ const MidHome = () => {
       url:"/body"
     },
     {
-      name: "Arithmetic",
+      name: "Numbers",
       color: "pink",
       id: 9,
-      url:"/arithmetic"
+      url:"/numbers"
     },
     {
       name: "Parts of a Computer",
