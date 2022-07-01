@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css';
+
+//import images to be used
 import onlineEducation from "../Images/online-education.jpg";
 import Students from "../Images/Students.png";
 import liz from"../Images/liz.png";
@@ -18,7 +20,7 @@ import Footer from './Footer';
 const About = () => {
   return (
     <>
-    <div class="about">
+    <div className="about">
       <div>
       <h1 className='header'>ABOUT US</h1><br></br>
       <h2 className='header2'>Welcome to course correct </h2><br></br>

@@ -7,17 +7,14 @@
   text-align: start;
   bottom: 0;
 }
- 
 
 @media (max-width: 850px) {
   .footer{
-      font-size: 15px;
-      height: auto;
-      width: auto;
-      
+      display: flex;
       bottom: 0;
       padding: auto;
-      position: relative;
+      /* position: relative; */
+      justify-content: space-evenly;
   }
 
 }

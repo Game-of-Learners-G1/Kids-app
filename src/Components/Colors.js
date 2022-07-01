@@ -142,8 +142,9 @@ const Colors = () => {
         {colors.map(color => (
           <SayButton
             speak={color.name}
+            key={color.id}
           >
-          <Color key={color.id} color={color} />
+          <Color color={color} />
           </SayButton>
         ))}
       </div>

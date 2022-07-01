@@ -3,7 +3,7 @@ import Footer from '../Components/Footer';
 
 const AlphaQuiz = () => {
 
-  const questions = [
+	const questions = [
 		{
 			questionText: 'A is for ____________',
 			answerOptions: [

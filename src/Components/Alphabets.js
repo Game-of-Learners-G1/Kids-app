@@ -224,7 +224,7 @@ const AlphLetters = () => {
           <div onClick={() => {
             setShowAlhabet(true)
             setAlphForPopup(leter)
-          }}>
+          }} key = {leter.id}>
             <button
               onClick={()=>{speak({ text: leter.text})}}
             

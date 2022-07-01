@@ -27,9 +27,10 @@ const Days = () => {
         {" "}
         {days.map(day => (
           <SayButton
+          key={day.id}
             speak={`${day.name} ${day.description}`}
           >
-          <Day day={day} key={day.id} />;
+          <Day day={day} />;
             </SayButton>
         ))}
       </div>

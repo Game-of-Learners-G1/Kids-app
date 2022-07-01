@@ -58,7 +58,7 @@ const Fruits = () => {
   ]
   return (
     <div>
-      <h1> Fruits </h1>
+      <h1>Let's Learn Fruits </h1>
       <div   style={{
         // display in grid of five
         display: 'grid',
@@ -68,11 +68,12 @@ const Fruits = () => {
       }}>
         {allFruits.map(fruits => (
           <SayButton
+          key={fruits.id}
             speak={fruits.fruitName}
             pitch={2.5}
             rate = {0.6}
           >
-          < Fruit key={fruits.id} fruits= {fruits}/>
+          < Fruit fruits= {fruits}/>
           </SayButton>
           
         ))}

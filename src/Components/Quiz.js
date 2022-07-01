@@ -39,43 +39,43 @@ const MidHome = () => {
       {
       name: "Days of the week",
       color: "white",
-        id: 10,
+        id: 4,
       url: "/daysquiz"
   },
       {
         name: "Months",
         color: "blue",
-        id: 4,
+        id: 5,
         url:"/monthsquiz"
       },
       {
         name: "Animals",
         color: "red",
-        id: 5,
+        id: 6,
         url:"/animalsquiz"
       },
       {
         name: "Fruits",
         color: "orange",
-        id: 6,
+        id: 7,
         url:"/fruitsquiz"
       },
       {
         name: "Parts of the body",
         color: "brown",
-        id: 7,
+        id: 8,
         url:"/bodysquiz"
       },
       {
         name: "Numbers",
         color: "pink",
-        id: 8,
+        id: 9,
         url:"/numberquiz"
       },
       {
         name: "Parts of a Computer",
         color: "dodgerblue",
-        id: 9,
+        id: 10,
         url:"/computerquiz"
       },
       {

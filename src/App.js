@@ -1,7 +1,4 @@
-
-
 import AdminTeacher from "./AdminTeacher";
-import { useState } from "react";
 import StudentData from "./StudentData";
 import About from './Components/About';
 import Contact from './Components/Contact';

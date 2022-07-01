@@ -90,11 +90,12 @@ const Months = () => {
         {" "}
       {months.map((month) => (
         <SayButton
+        key={month.id}
           speak={`${month.month} ${month.descript} ${month.days}`}
           pitch={2.5}
           rate={0.4}
         >
-          < Month key={month.id} month={month}/>
+          < Month month={month}/>
           </SayButton>
           
       ))}

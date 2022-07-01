@@ -11,11 +11,10 @@
     width: auto;
     border-radius: 20px;
     border: none;
-    
 }
 .payDetails img{
     width: 350px;
-    height: 350px;
+    height: 250px;
     border-radius: 20px;
 }
 .paymentHeader{

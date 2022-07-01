@@ -13,12 +13,20 @@ function SignIn() {
 
     const signUp = (e) => {
         e.preventDefault()
-        if (password!= confirmPassword) {
-            window.alert(`${confirmPassword} != to ${password}`)
-        } else if (password.length < 8) {
-            window.alert(`Password should be => 8`)
 
+        if (name===null || name ==="") {
+            window.alert("Please write your name")
+            }
+
+        else if (password!== confirmPassword) {
+            window.alert("The two passwords do not match")
+        } else if (email===null || email ==="") {
+            window.alert("Email field is empty")
         }
+        else if (password.length < 8) {
+            window.alert("The password should be at least 8 characters")
+        }
+    
         else {
             
             createUserWithEmailAndPassword(auth, email, password, name)

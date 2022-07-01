@@ -1,5 +1,4 @@
 import React from 'react';
-import { SayButton } from 'react-say-fork';
 import "../styles/numbers.css"
 import Footer from './Footer';
 
@@ -190,7 +189,7 @@ const Numbers = () => {
             fontSize: "25px",
           textTransform: "capitalize",
     
-          }}>
+          }} key = {number.figure}>
             
             <h1>{number.figure}</h1>
             {number.word}

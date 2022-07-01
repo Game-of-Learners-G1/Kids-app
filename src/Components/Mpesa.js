@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
-import '../styles/Donate.css'
+import '../styles/Donate.css';
+
+//importing the images
 import mpesa from '../Images/mpesa.png';
 import equity from '../Images/equity.jpg';
 import kcp from '../Images/kcp.jpg';

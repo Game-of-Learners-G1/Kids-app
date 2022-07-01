@@ -119,11 +119,12 @@ const Animals = () => {
       }}>
         {allAnimals.map((animals) => (
           <SayButton
+          key = {animals.id}
             speak={animals.animalName}
             pitch={1.5}
             rate ={0.2}
           >
-      <Animal key = {animals.id} animals ={animals} />
+      <Animal animals ={animals} />
           </SayButton>
       ))}
       </div>

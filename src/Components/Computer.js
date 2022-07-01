@@ -90,11 +90,12 @@ const Computer = () => {
         {
           parts.map(part => (
             <SayButton
+            key={part.id}
               speak={part.name}
               pitch={3.5}
               rate={0.4}
             >
-              <ComputerPart key={part.id} part={part} />
+              <ComputerPart part={part} />
             </SayButton>
           ))
         }

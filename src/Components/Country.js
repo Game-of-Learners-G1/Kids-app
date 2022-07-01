@@ -291,10 +291,12 @@ const Country = () => {
         {counties.map(country => (
           <SayButton
             speak={country.country}
-            pitch={2.5}
-            rate = {0.6}
+            pitch={1.5}
+            rate={0.5}
+            
+            key={country.id}
           >
-          < Countries key={country.id} country= {country}/>
+          < Countries  country= {country}/>
           </SayButton>
           
         ))}
@@ -316,16 +318,7 @@ const Countries = ({ country }) => {
         height: "80px",
         textTransform: "uppercase",
 
-      }}>{country.country}</h3>
-      {/* <img
-        src={fruits.fruitImage}
-        style={{
-          height: "200px",
-          width: "200px",
-          cursor: "pointer",
-
-        }}
-     alt = "" /> */}
+      }} key={country.id}>{country.country}</h3>
       <h4>{country.city}</h4>
     </div>
   );

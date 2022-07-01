@@ -124,11 +124,12 @@ image:"https://www.rd.com/wp-content/uploads/2020/11/Tongue-Twisters_2-e16051194
 {
           bodyParts.map(part => (
             <SayButton
+            key={part.id}
               speak={part.name}
               pitch={3.5}
               rate ={0.4}
             >
-    <Part key={part.id} part={part} />
+    <Part part={part} />
       </SayButton>
           ))
 }
