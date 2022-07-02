@@ -12,26 +12,27 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
-        signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    // Signed in 
-      const user = userCredential.user;
-      console.log(user)
-    window.localStorage.setItem("logedInUser", JSON.stringify(user.email))
-    window.location.replace("/");
-
-    // ...
-  })
-  .catch((error) => {
-    // const errorCode = error.code;
-    // const errorMessage = error.message;
-    // alert(errorCode)
-    console.log(error);
-    alert(" Wrong username or password ");
-    
-  });
+    if (email === null || email === "") {
+      alert("Email field is empty")
     }
-
+    else if (password === null || password === "") {
+      window.alert("Password field is empty")
+    }
+    else {
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          console.log(user)
+          window.localStorage.setItem("logedInUser", JSON.stringify(user.email))
+          window.location.replace("/");
+        })
+        .catch((error) => {
+          console.log(error);
+          alert(" Wrong username or password ");
+    
+        });
+    }
+  }
   return (
     <div>
       <div className="main">
